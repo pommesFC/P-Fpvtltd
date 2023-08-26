@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: sans-serif;
 
 }
 #head-container{
@@ -10,7 +11,7 @@
     justify-content: center;
     
 }
-#contents{
+.contents{
     justify-items: center;
     width: 75%;
 }
@@ -22,10 +23,12 @@
     justify-content: space-between;
 }
 #header img{
-    width: 25%;
-    border-radius: 20px;
+    width:50%;
+    border-radius: 100px;
+    stroke: 2px solid blue;
 }
 #nav-bar{
+    margin-top: 23px;
     display: flex;
     width: 30%;
     justify-content: space-around;
@@ -34,8 +37,11 @@
     color: white;
     text-decoration: none;
 }
+#nav-bar a:hover{
+    text-decoration: underline;
+}
 #details{
-    margin-top:50px;
+    margin-top:55px;
     display: flex;
     justify-content: space-between;
 }
@@ -44,16 +50,16 @@
     font-size: 48px ;
 }
 #name-detail p{
+    margin-top: 10px;
     font-family: #e5e7eb;
     font-size: 18px;
 }
-#related-img{
-    display: flex;
-    justify-content: flex-end;
-}
+
 #details img{
     width: 350px;
     height: 180px;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 10px;
 }
 #enroll{
     width: 110px;
@@ -70,4 +76,114 @@
     background-color: #265db4;
     border:2px solid #265db4;
     transition-duration: 0.2s;
+}
+#founders-container{
+    display: flex;
+    margin-top: 150px;
+    height: 400px;
+    justify-content: center;
+    background-color: #252425;
+}
+#text{
+    color: #f9faf8;
+    margin:10px;
+    font-size: 36px;
+    text-align: center;
+}
+#individuals{
+    margin-top: 50px;
+    margin-left: -50px;
+    display: flex;
+    justify-content: space-between;
+    width: 110%;
+    color: #f9faf8;
+}
+.founders{
+    justify-content: space-between;
+    text-align: center;
+    width: 200px;
+}
+.founders img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(130, 130, 190);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.founders img:hover{
+    transition-duration: 0.2s;
+    border: 3px solid rgb(12, 86, 116);
+}
+.founders p{
+    color: #e5e7eb;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#quote-container{
+    background-color: #e5e7eb;
+    margin-top: 100px;
+    padding: 50px;
+    color: #1f2937;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+#quote{
+    font-size: 30px;
+    font-style: italic;
+}
+#said-by{
+    font-size: 38px;
+    float: right;
+}
+
+#enroll-container{
+    height: 150px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+#enroll-contents{
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    width: 80%;
+}
+#enroll-text{
+    font-size: 20px;
+    padding: 20px;
+}
+#enroll-text p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+#enroll-button button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 130px;
+    height: 50px;
+    margin-left: 50px;
+    border:2px solid white;
+}
+#enroll-button button:hover{
+    transition-duration: 0.2s;
+    color: #3882f6;
+    background-color: white;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1f2937;
+    height: 50px;
+    margin-top: 100px;
 }
